@@ -1,0 +1,8 @@
+<h1> Edit Movie </h1>
+<form action="/updatemovies/<%= @movie.id %>">
+  <input type="text" name="title" placeholder="Movie Title" value=<%= @movie.title %>>
+  <input type="text" name="url" placeholder="Url of Movie" value=<%= @movie.url%>>
+  <input type="text" name="desc" placeholder="Description" value=<%= @movie.desc%>>
+  <input type="text" name="src" placeholder="Source of Image" value=<%= @movie.src%>>
+  <input type="submit">
+</form>
